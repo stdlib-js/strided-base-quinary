@@ -20,6 +20,8 @@ limitations under the License.
 
 # Quinary
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Apply a quinary callback to strided input array elements and assign results to elements in a strided output array.
 
 <section class="intro">
@@ -275,6 +277,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/strided-base-quinary.svg
+[npm-url]: https://npmjs.org/package/@stdlib/strided-base-quinary
+
+[test-image]: https://github.com/stdlib-js/strided-base-quinary/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/strided-base-quinary/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/strided-base-quinary/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/strided-base-quinary?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/strided-base-quinary
+[dependencies-url]: https://david-dm.org/stdlib-js/strided-base-quinary/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
