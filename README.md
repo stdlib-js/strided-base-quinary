@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-quinary/tags). For example,
+
+```javascript
 import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.1.1-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
 ```
 
 #### quinary( arrays, shape, strides, fcn )
@@ -205,7 +210,7 @@ quinary.ndarray( [ x, y, z, w, u, v ], [ 3 ], [ 2, 2, 2, 2, 2, -1 ], [ 1, 1, 1, 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.1.1-deno/mod.js';
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
 
 function add( x, y, z, w, u ) {
     return x + y + z + w + u;
