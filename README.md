@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-quinary/tags). For example,
+
+```javascript
 import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.1-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@esm/index.mjs';
 ```
 
 #### quinary( arrays, shape, strides, fcn )
@@ -196,7 +201,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add5@esm/index.mjs';
-import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.1-esm/index.mjs';
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@esm/index.mjs';
 
 var N = 10;
 
