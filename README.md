@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.2-deno/mod.js';
 ```
 
 #### quinary( arrays, shape, strides, fcn )
@@ -191,7 +191,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add5@deno/mod.js';
-import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@deno/mod.js';
+import quinary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-quinary@v0.2.2-deno/mod.js';
 
 var N = 10;
 
